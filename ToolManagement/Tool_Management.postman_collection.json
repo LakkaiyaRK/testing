@@ -1,0 +1,351 @@
+{
+	"info": {
+		"_postman_id": "86272461-3b6d-414c-be3f-4bb0c7a426f6",
+		"name": "Tool_Management",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Tool Count",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8010/tool/get_tool_count?sap_code=8361451343&partsToProduce=12000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"tool",
+						"get_tool_count"
+					],
+					"query": [
+						{
+							"key": "sap_code",
+							"value": "8361451343"
+						},
+						{
+							"key": "partsToProduce",
+							"value": "12000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Tool",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8010/tool/delete_tool?id=6329672d225a3707e82b6cc9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"tool",
+						"delete_tool"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "6329672d225a3707e82b6cc9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTool",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8010/tool/get_tool?id=632077fd29c916197566688b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"tool",
+						"get_tool"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "632077fd29c916197566688b"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FetchAllTools",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8010/tool/get_all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"tool",
+						"get_all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveOrUpdateTool",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n    \"toolno\" : 11,\r\n    \"sapcode\" : \"8443\",\r\n    \"description\" : \"\",\r\n    \"make\" : \"mediatek\",\r\n    \"date\":\"18-09-2022\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8010/tool/save_or_update_tool",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"tool",
+						"save_or_update_tool"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "6329672d225a3707e82b6cc9",
+							"disabled": true
+						},
+						{
+							"key": "toolno",
+							"value": "12",
+							"disabled": true
+						},
+						{
+							"key": "sapcode",
+							"value": "8443",
+							"disabled": true
+						},
+						{
+							"key": "description",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "make",
+							"value": "snap",
+							"disabled": true
+						},
+						{
+							"key": "date",
+							"value": "17-09-2022",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveOrUpdateToolProductivity",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n\"tools\" : \"6329672d225a3707e82b6cc9\",\r\n\"new_life\" : 100,\r\n\"new_life_price\" : 1000,\r\n\"tool_after_res\" : 70,\r\n\"price_after_res\" : 500,\r\n\"no_of_res\" : 2  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8010/tool/save_or_update_tool_productivity",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"tool",
+						"save_or_update_tool_productivity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save ItemToolMapping",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"item\" : \"6329ac871b870d4c2d988478\",\r\n    \"tools\" : [\"6321aaa36ea01acbf4a0dacc\" , \"6321aacb6ea01acbf4a0dacd\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8010/tool/item_tool_map",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"tool",
+						"item_tool_map"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTotalPrice",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8010/tool/total_price?id=6329ac871b870d4c2d988478123&quantity=1200",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"tool",
+						"total_price"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "6329ac871b870d4c2d988478123"
+						},
+						{
+							"key": "quantity",
+							"value": "1200"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveOrUpdateItem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8010/tool/save_item?item_code=1003&item_name=mobile&item_description",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"tool",
+						"save_item"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "6329691f225a3707e82b6ccb",
+							"disabled": true
+						},
+						{
+							"key": "item_code",
+							"value": "1003"
+						},
+						{
+							"key": "item_name",
+							"value": "mobile"
+						},
+						{
+							"key": "item_description",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DateBetween",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8010/tool/findtoolsbydate?startdate=11-09-2022&enddate=10-09-2022",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"tool",
+						"findtoolsbydate"
+					],
+					"query": [
+						{
+							"key": "startdate",
+							"value": "11-09-2022"
+						},
+						{
+							"key": "enddate",
+							"value": "10-09-2022"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

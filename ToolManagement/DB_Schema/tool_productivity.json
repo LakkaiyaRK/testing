@@ -1,0 +1,167 @@
+[{
+  "_id": {
+    "$oid": "632074b929c9161975666887"
+  },
+  "new_life": 50,
+  "tool_after_res": 38,
+  "no_of_res": 5,
+  "_class": "com.tool.ToolManagement.model.ToolProductivity",
+  "tools": {
+    "_id": {
+      "$oid": "63207074d250fe5f1ed6a3b5"
+    },
+    "description": "",
+    "make": "WIDIA",
+    "sapcode": "8361451314",
+    "toolno": 1,
+    "date": {
+      "$date": {
+        "$numberLong": "1663027200000"
+      }
+    }
+  },
+  "new_life_price": 1000,
+  "price_after_res": 500
+},{
+  "_id": {
+    "$oid": "632077fd29c916197566688b"
+  },
+  "new_life": 100,
+  "tool_after_res": 75,
+  "no_of_res": 3,
+  "_class": "com.tool.ToolManagement.model.ToolProductivity",
+  "tools": {
+    "_id": {
+      "$oid": "6320777f29c9161975666888"
+    },
+    "description": "",
+    "make": "HANITA WIDIA",
+    "sapcode": "8361451343",
+    "toolno": 2,
+    " date": {
+      "$date": {
+        "$numberLong": "1662768000000"
+      }
+    }
+  },
+  "new_life_price": 1000,
+  "price_after_res": 600
+},{
+  "_id": {
+    "$oid": "632080fe7d28fc3b8a282be3"
+  },
+  "new_life": 100,
+  "tool_after_res": 75,
+  "no_of_res": 5,
+  "_class": "com.tool.ToolManagement.model.ToolProductivity",
+  "tools": {
+    "_id": {
+      "$oid": "632077ad29c9161975666889"
+    },
+    "toolno": 4,
+    "description": "",
+    "make": "HANITA WIDIA",
+    "sapcode": "8361340021",
+    " date": {
+      "$date": {
+        "$numberLong": "1662854400000"
+      }
+    }
+  },
+  "new_life_price": 1200,
+  "price_after_res": 600
+},{
+  "_id": {
+    "$oid": "6320811c7d28fc3b8a282be4"
+  },
+  "new_life": 100,
+  "tool_after_res": 75,
+  "no_of_res": 5,
+  "_class": "com.tool.ToolManagement.model.ToolProductivity",
+  "tools": {
+    "_id": {
+      "$oid": "632077c329c916197566688a"
+    },
+    "toolno": 6,
+    "description": "",
+    "make": "HANITA WIDIA",
+    "sapcode": "8361340001",
+    " date": {
+      "$date": {
+        "$numberLong": "1662940800000"
+      }
+    }
+  },
+  "new_life_price": 1000,
+  "price_after_res": 500
+},{
+  "_id": {
+    "$oid": "6321ac816ea01acbf4a0dad6"
+  },
+  "new_life": 100,
+  "tool_after_res": 75,
+  "no_of_res": 3,
+  "tools": {
+    "_id": {
+      "$oid": "6321aaa36ea01acbf4a0dacc"
+    },
+    "description": "",
+    "make": "RK",
+    "toolno": 8,
+    "sapcode": "1234",
+    " date": {
+      "$date": {
+        "$numberLong": "1663113600000"
+      }
+    }
+  },
+  "new_life_price": 1000,
+  "price_after_res": 500
+},{
+  "_id": {
+    "$oid": "6322c38f09b3290c94125a92"
+  },
+  "new_life": 80,
+  "tool_after_res": 60,
+  "no_of_res": 5,
+  "tools": {
+    "_id": {
+      "$oid": "6321aacb6ea01acbf4a0dacd"
+    },
+    "description": "",
+    "make": "nvidia",
+    "toolno": 9,
+    "sapcode": "12345",
+    " date": {
+      "$date": {
+        "$numberLong": "1663200000000"
+      }
+    }
+  },
+  "new_life_price": 1400,
+  "price_after_res": 700
+},{
+  "_id": {
+    "$oid": "6323165cfca7f25c9a378c89"
+  },
+  "tools": {
+    "_id": {
+      "$oid": "6323162bfca7f25c9a378c88"
+    },
+    "toolno": 10,
+    "sapcode": "8442",
+    "description": "",
+    "make": "helio",
+    "date": {
+      "$date": {
+        "$numberLong": "1663286400000"
+      }
+    }
+  },
+  "new_life": 100,
+  "tool_after_res": 75,
+  "no_of_res": 5,
+  "_class": "com.tool.ToolManagement.model.ToolProductivity",
+  "new_life_price": 1200,
+  "price_after_res": 600
+}]

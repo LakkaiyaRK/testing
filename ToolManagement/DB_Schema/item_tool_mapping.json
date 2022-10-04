@@ -1,0 +1,130 @@
+[{
+  "_id": {
+    "$oid": "6325a2129932853d973c76ea"
+  },
+  "item": {
+    "_id": {
+      "$oid": "63257ecfdbdb399899bb5c9d"
+    },
+    "item_code": 1001,
+    "item_name": "mirror",
+    "item_description": ""
+  },
+  "tools": [
+    {
+      "_id": {
+        "$oid": "6321aaa36ea01acbf4a0dacc"
+      },
+      "toolno": 8,
+      "sapcode": "1234",
+      "description": "",
+      "make": "RK",
+      " date": {
+        "$date": {
+          "$numberLong": "1663113600000"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6321aacb6ea01acbf4a0dacd"
+      },
+      "toolno": 9,
+      "sapcode": "12345",
+      "description": "",
+      "make": "nvidia",
+      "date": {
+        "$date": {
+          "$numberLong": "1663200000000"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6323162bfca7f25c9a378c88"
+      },
+      "toolno": 10,
+      "sapcode": "8442",
+      "description": "",
+      "make": "helio",
+      "date:": {
+        "$date": {
+          "$numberLong": "1663286400000"
+        }
+      }
+    }
+  ],
+  "_class": "com.tool.ToolManagement.model.ItemToolMapping"
+},{
+  "_id": {
+    "$oid": "63296a3e225a3707e82b6ccc"
+  },
+  "item": {
+    "_id": {
+      "$oid": "6329691f225a3707e82b6ccb"
+    },
+    "item_code": 1002,
+    "item_name": "desk",
+    "item_description": ""
+  },
+  "tools": [
+    {
+      "_id": {
+        "$oid": "632077ad29c9161975666889"
+      },
+      "toolno": 4,
+      "sapcode": "8361340021",
+      "description": "",
+      "make": "HANITA WIDIA",
+      "date": {
+        "$date": {
+          "$numberLong": "1662854400000"
+        }
+      }
+    }
+  ],
+  "_class": "com.tool.ToolManagement.model.ItemToolMapping"
+},{
+  "_id": {
+    "$oid": "6329acdd1b870d4c2d988479"
+  },
+  "item": {
+    "_id": {
+      "$oid": "6329ac871b870d4c2d988478"
+    },
+    "item_code": 1003,
+    "item_name": "mobile",
+    "item_description": ""
+  },
+  "tools": [
+    {
+      "_id": {
+        "$oid": "6321aaa36ea01acbf4a0dacc"
+      },
+      "toolno": 8,
+      "sapcode": "1234",
+      "description": "",
+      "make": "RK",
+      "date": {
+        "$date": {
+          "$numberLong": "1663113600000"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6321aacb6ea01acbf4a0dacd"
+      },
+      "toolno": 9,
+      "sapcode": "12345",
+      "description": "",
+      "make": "nvidia",
+      "date": {
+        "$date": {
+          "$numberLong": "1663200000000"
+        }
+      }
+    }
+  ],
+  "_class": "com.tool.ToolManagement.model.ItemToolMapping"
+}]
